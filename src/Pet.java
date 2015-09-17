@@ -12,6 +12,8 @@ public class Pet {
 	public Pet(String initialName, int initialAge, double initialWeight) {
 		 // 구현하시오.
 		name = initialName;
+		age = initialAge;
+		weight = initialWeight;
 	}
         // 오버로딩
 	public Pet(String initialName) {
@@ -36,29 +38,34 @@ public class Pet {
 	}
 	public void set(String newName, int newAge, double newWeight) {
 		 // 구현 하시오.
+		name = newName;
+		age = newAge;
+		weight = newWeight;
 	}
 	
 	public void setAge( int newAge) {
                // 구현하시오.
+		age = newAge;
 	}
 	
 	public void setWeight( double newWeight) {
 	      // 구현하시오.
+		weight = newWeight;
        }
 	
 	public String getName() {
 		// 구현하시오.
-		return null;
+		return name;
 	}
 	
 	public int getAge() {
 		// 구현하시오.
-		return 0;
+		return age;
 	}
 	
 	public double getWeight() {
 		// 구현하시오.
-		return 0;
+		return weight;
 	}
 
 	public void setName(String name) {

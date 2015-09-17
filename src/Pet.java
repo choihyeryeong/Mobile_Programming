@@ -56,4 +56,8 @@ public class Pet {
 	public double getWeight() {
 		// 구현하시오.
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

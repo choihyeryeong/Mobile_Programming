@@ -16,7 +16,7 @@ class Bank {
 		}
 		System.out.println("잔여 금액 : " + balance); // 에러 발생시 잔여금액은 처음 금액과 같게 하고 싶다.
 	}
-	// 트라이 캐치로 예외처리 하세요
+	
 	public void tradeWithA () throws Exception {
 		int m = 100; // A계좌에서 출금할 금액
 		System.out.println("A 계좌에서 출금 - " + m);

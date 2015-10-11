@@ -31,8 +31,6 @@ public class AddLineNumber
          String str = null;
          int lineNum = 1;
          
-         
-         
          while(true){
         	 str = inputStream.readLine();
         	 if(str == null) break;

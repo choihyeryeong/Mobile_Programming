@@ -25,9 +25,9 @@ public class AddLineNumber
          PrintWriter outputStream = 
                new PrintWriter(new FileOutputStream(path+"numbered.txt"));
 
-          /**
+          /*
            구현하시오. 
-          **/
+          */
          String str = null;
          int lineNum = 1;
          
